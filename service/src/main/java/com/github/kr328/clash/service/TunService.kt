@@ -231,10 +231,10 @@ class TunService : VpnService(), CoroutineScope by CoroutineScope(Dispatchers.De
     companion object {
         private const val TUN_MTU = 9000
         private const val TUN_SUBNET_PREFIX = 30
-        private const val TUN_GATEWAY = "172.19.0.1"
+        private const val TUN_GATEWAY = "10.89.237.178"
         private const val TUN_SUBNET_PREFIX6 = 126
         private const val TUN_GATEWAY6 = "fdfe:dcba:9876::1"
-        private const val TUN_PORTAL = "172.19.0.2"
+        private const val TUN_PORTAL = "10.89.237.179"
         private const val TUN_PORTAL6 = "fdfe:dcba:9876::2"
         private const val TUN_DNS = TUN_PORTAL
         private const val TUN_DNS6 = TUN_PORTAL6
